@@ -1,0 +1,62 @@
+body{
+    font-size: large;
+    background-image: linear-gradient(to left,orangered,orange);
+}
+ul li:first-child{
+    color: blueviolet;
+}
+ul li:last-child{
+    color: gold;
+}
+a:visited{
+    text-decoration: black;
+}
+a:focus{
+    background-color: lawngreen;
+}
+.color::placeholder{
+    color:darkcyan;
+}
+.para::first-letter{
+    color:white;
+    font-size:xx-large;
+}
+.p1::before{
+    content: "HI ";
+    color: turquoise;
+    font-size: 50px;
+}
+.p2::after{
+    content: " BYE";
+    color:turquoise;
+    font-size: 50px;
+}
+.p3::first-letter{
+    font-size: 50px;
+    color: wheat;
+    background-color: black;
+    box-shadow:4px 4px rgb(172, 170, 228);
+}
+ol{
+    list-style-type: none;
+}
+ol li:nth-child(even){
+    color:teal;
+}
+ol li:nth-child(odd){
+    color: saddlebrown;
+}
+ol li{
+    padding: 10px;
+}
+.p4{
+    background-color:darkcyan;
+    width: 300px;
+}
+.p5{
+    background-color: white;
+    width: 300px;
+}
+table{
+    margin-left: 50px;
+}
